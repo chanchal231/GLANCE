@@ -112,6 +112,7 @@ nav img{
     box-shadow: 0 0 15px 0 rgba(150, 145, 145, 0.4);
     text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -144,8 +145,7 @@ nav img{
     color: white;
     /* border: none; */
     margin-top: 20px;
-    margin-right: 5px;
-  font-family: roboto;
+      font-family: roboto;
 }
 
 .button a{
