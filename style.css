@@ -274,7 +274,7 @@ h3{
 }
 
 .layer:hover{
-  background: rgba(20, 48, 209, 0.7);
+  background: rgba(20, 48, 209, 0.4);
 
 }
 
@@ -317,7 +317,7 @@ h3{
 }
 
 .club-layer:hover{
-  background: rgba(209, 20, 20, 0.7);
+  background: rgba(209, 20, 20, 0.4);
 
 }
 
