@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    padding-bottom:10px;
 }
 
 .header{
@@ -101,23 +102,24 @@ nav img{
 }
 
 .form{
-    width: 240px;
-    height: 240px;
+    width: 300px;
+    height: 300px;
     background: linear-gradient(to top, rgba(17, 17, 17, 0.7)50%,  rgba(17, 17, 17, 0.5)50%);
     position: absolute;
     top: -20px;
-    left: 710px;
+    right: 50px;
     border-radius: 10px;
     padding: 25px;
     box-shadow: 0 0 15px 0 rgba(150, 145, 145, 0.4);
     text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 
 
 .form h2{
-    width: 180px;
+    /* width: 180px; */
     font-family:arial;
     text-align: center;
     color: rgb(252, 248, 246);
@@ -126,8 +128,8 @@ nav img{
     box-shadow: 0 0 20px 0px rgba(201, 232, 253, 0.4);
     border-radius: 5px;
     padding: 5px;
-    /* margin: 2px;
-    padding: 8px; */
+    margin: 5px;
+    padding: 8px;
 
 }
 
@@ -140,17 +142,19 @@ nav img{
     border-top: none;
     border-left: none;
     border-right: none;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     /* border: none; */
-    margin-top: 20px;
-    margin-right: 5px;
-  font-family: roboto;
+    margin-top: 30px;
+      font-family: roboto;
 }
 
 .button a{
     text-decoration: none;
     color: orange;
+}
+.button:hover a{
+    color: white;
 }
 
 .form input:focus-visible{
@@ -168,17 +172,17 @@ nav img{
     font-size: 15px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
     /* margin-left: 0px; */
-    padding: 7px;
+    padding: 9px;
     border: none;
     /* margin-right: 22px; */
   
 }
 
 .button:hover{
-    background-color: rgb(22, 44, 168);
-    color: white;
+    background-color: orange;
+    color: black;
     cursor: pointer;
 }
 
@@ -285,6 +289,7 @@ h3{
 .club-col img{
     width: 100%;
 }
+<<<<<<< HEAD
 
 
 /* ----------------footer---------- */
@@ -429,3 +434,5 @@ h3{
       justify-content: center;
     }
   }
+=======
+>>>>>>> 31338970a4df125fd89e8aac3f9e0c1c77cee4b9
