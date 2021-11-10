@@ -263,9 +263,25 @@ h3{
     overflow: hidden;
     margin: 5px;
 }
+.layer{
+  background: transparent;
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  transition: 0.2s;
+}
+
+.layer:hover{
+  background: rgba(20, 48, 209, 0.7);
+
+}
 
 .campus-col img{
     width: 100%;
+    
+
 }
 
 
@@ -288,6 +304,21 @@ h3{
 
 .club-col img{
     width: 100%;
+}
+
+.club-layer{
+  background: transparent;
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  transition: 0.2s;
+}
+
+.club-layer:hover{
+  background: rgba(224, 23, 23, 0.7);
+
 }
 
 
