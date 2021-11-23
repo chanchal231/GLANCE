@@ -7,13 +7,16 @@
     <title>Glance Website </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    
    
 </head>
 <body>
     <section class = "header">
         <nav>
             <a href="index.html"><img src="./images/download.jpg" alt=""></a>
-            <div class="nav-links">
+
+            <div class="nav-links"  id= "navLinks">
+                <i class="fa fa-times"  onclick="hidemenu()"></i>
                 <ul>
                    <b>
                     <li><a href="">HOME</a></li>
@@ -21,9 +24,11 @@
                     <li><a href="./pages/courses.html" > All COURSES</a></li>
                     <li><a href="./pages/club.html"  >CLUB</a></li>
                     <li><a href="./pages/contactUs.html" >CONTACT</a></li>
+                    <li><a href="./pages/login.html">Student corner</a></li>
                 </b>
                 </ul>
                 </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
         </nav>
         
       
@@ -41,15 +46,9 @@
                 <div class="form">
                     <h2>Student Corner</h2>
                   <form action="">
-                      <!-- <label for="email">
-                        Email : <br />
-                      </label> -->
                       <input type="email" placeholder="Enter Your Email." autocapitalize="true"  spellcheck="false"/>
                     <br>
-                      <!-- <label for="password">
-                        Password : <br />
-                      </label> -->
-                      <input type="password" placeholder="Enter Your Password" />
+                     <input type="password" placeholder="Enter Your Password" />
                     <br>
                    <button class = "button"><a href="./pages/dashboard.html" > 
                           LOGIN</a></button>
@@ -203,6 +202,21 @@ Phone: 099270 64017
     <div class="icons" style="background-color: #efd049;"><i class="fab fa-whatsapp"></i></div></div>
     
 </div>
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
 
 </body>
 </html>
