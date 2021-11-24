@@ -60,6 +60,10 @@ nav img{
     width:100%;
 }
 
+#stu{
+  display: none;
+}
+
 .text-box{
     width:90%;
     color: white;
